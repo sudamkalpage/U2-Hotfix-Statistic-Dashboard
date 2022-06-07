@@ -1,0 +1,6 @@
+/node_modules
+.eslintcache
+/src/data/data.json
+/src/constants/token.ts
+/src/data/config.sh
+
