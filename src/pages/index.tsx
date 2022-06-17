@@ -12,12 +12,12 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 import Stack from "@mui/material/Stack";
 import { createTheme } from "@mui/material/styles";
-import { useDataStore } from "../store/DataStore";
-import { Button } from "@mui/material";
-import axios from "axios";
+// import { useDataStore } from "../store/DataStore";
+// import { Button } from "@mui/material";
+// import axios from "axios";
 import * as CONSTANTS from "../constants/constants";
-import * as TOKEN from "../constants/token";
-import { toast } from "react-toastify";
+// import * as TOKEN from "../constants/token";
+// import { toast } from "react-toastify";
 import Login from "../components/Login";
 import { useAuthContext } from "@asgardeo/auth-react";
 
@@ -31,7 +31,7 @@ function Dashboard() {
   const [month2, setMonth2] = React.useState(5);
   const [year2, setYear2] = React.useState(3);
   const [isFetched, setIsFetched] = React.useState(false);
-  const setData = useDataStore((state) => state.setData);
+  // const setData = useDataStore((state) => state.setData);
 
   React.useEffect(() => {
     console.log("month", month);
@@ -59,7 +59,7 @@ function Dashboard() {
         <main className="container">
           <Container maxWidth="xl">
             <Grid container spacing={theme.spacing(2)}>
-              <Button
+              {/* <Button
                 onClick={() => {
                   axios
                     .get(CONSTANTS.URL, {
@@ -86,15 +86,7 @@ function Dashboard() {
                 }}
               >
                 Load Data
-              </Button>
-
-              <Button
-                onClick={() => {
-                  console.log(state);
-                }}
-              >
-                User Attributes
-              </Button>
+              </Button> */}
 
               <Grid item xs={6}>
                 {/* <Box

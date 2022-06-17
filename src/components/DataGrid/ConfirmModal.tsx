@@ -70,7 +70,7 @@ export default function CustomizedDialogs(props: any) {
 
   return (
     <div>
-      <Button style={{ marginTop: 20 }} onClick={handleClickOpen}>
+      <Button variant="contained" style={{ marginTop: 20 }} onClick={handleClickOpen}>
         Export as a File
       </Button>
       <BootstrapDialog

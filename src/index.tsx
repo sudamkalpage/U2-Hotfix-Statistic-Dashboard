@@ -6,13 +6,13 @@ import { AuthProvider } from "@asgardeo/auth-react";
 
 const Index = () => (
   <AuthProvider
-    config={{
-      signInRedirectURL: "http://localhost:3000",
-      signOutRedirectURL: "http://localhost:3000",
-      clientID: "wiDGyfgzwOYsbF7gJAVvwSZ9lE8a",
-      baseUrl: "https://api.asgardeo.io/t/sudam",
-      scope: ["openid", "profile"],
-    }}
+  config={ {
+    signInRedirectURL: "http://localhost:3000",
+    signOutRedirectURL: "http://localhost:3000",
+    clientID: "ppVB5LnIDOkwTmiwSlS19RzEh9ga",
+    baseUrl: "https://api.asgardeo.io/t/wso2staging",
+    scope: [ "openid","profile" ]
+    } } 
   >
     <React.StrictMode>
       <App />

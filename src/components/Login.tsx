@@ -39,7 +39,7 @@ function LandingPage() {
                 noWrap
                 sx={{ fontWeight: "bold" }}
               >
-                U2/WUM/Hotfix Statistics Dashboard
+                U2/Hotfix Statistics Dashboard
               </Typography>
 
               <Divider variant="middle" />

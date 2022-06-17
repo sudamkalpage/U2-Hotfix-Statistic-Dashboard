@@ -64,7 +64,7 @@ const ResponsiveAppBar = () => {
                   noWrap
                   sx={{ align: "center" }}
                 >
-                  U2/WUM/Hotfix Statistics Dashboard
+                  U2/Hotfix Statistics Dashboard
                 </Typography>
               </Box>
             </Grid>
