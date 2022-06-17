@@ -19,9 +19,9 @@ export default function App(Props: ChartProps) {
   const myData = useGraphDataStore((state) => state.filteredGraphData);
 
   useEffect(() => {
-    console.log("myData", myData);
-    console.log(Props.month);
-    console.log(Props.year);
+    // console.log("myData", myData);
+    // console.log(Props.month);
+    // console.log(Props.year);
   }, []);
 
   return (

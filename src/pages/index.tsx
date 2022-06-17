@@ -15,7 +15,7 @@ import { createTheme } from "@mui/material/styles";
 // import { useDataStore } from "../store/DataStore";
 // import { Button } from "@mui/material";
 // import axios from "axios";
-import * as CONSTANTS from "../constants/constants";
+// import * as CONSTANTS from "../constants/constants";
 // import * as TOKEN from "../constants/token";
 // import { toast } from "react-toastify";
 import Login from "../components/Login";
@@ -34,19 +34,18 @@ function Dashboard() {
   // const setData = useDataStore((state) => state.setData);
 
   React.useEffect(() => {
-    console.log("month", month);
-    console.log(CONSTANTS.URL);
+    // console.log("month", month);
   }, [month]);
   React.useEffect(() => {
-    console.log("year", year);
+    // console.log("year", year);
   }, [year]);
 
   React.useEffect(() => {
-    console.log(isFetched);
+    // console.log(isFetched);
   }, [isFetched]);
 
   React.useEffect(() => {
-    console.log(state, "state");
+    // console.log(state, "state");
   }, []);
 
   const { state } = useAuthContext();
